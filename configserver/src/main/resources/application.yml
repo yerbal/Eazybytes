@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        #        native:
+        #          search-locations: "classpath:/configserver/"
+        #         search-locations: "file:///G://section6
+        git:
+          uri: "https://github.com/yerbal/Bank-Project.git"
+          clone-on-start: true
+          default-label: main
+          timeout: 5
+          force-pull: true
+encrypt:
+  key: "K@r7095059420"
+
+server:
+  port: 8071
