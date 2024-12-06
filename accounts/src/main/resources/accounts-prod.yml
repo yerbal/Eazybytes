@@ -1,0 +1,10 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Hey, Welcome to EazyBank accounts related prod APIs"
+  contactDetails:
+    name: "Karthik Reddy - Product Owner"
+    email: "yerbalkarthik@gmail.com"
+  onCallSupport:
+    - (879) 009-5463
